@@ -4,8 +4,7 @@
     </head>
     <body>
         <h1>Python Game</h1>
-        
-        <img src="Photo1.png">
+        <h3>Worst-rng</h3>
         <h3>Made by Gemcast</h3>
         <p>Verison:1.0</p>
         <a href="https://drive.usercontent.google.com/download?id=1zWVS7Pa9Zshv_9JKzkDN04KlYRwBLvMO&export=download&authuser=0"><button>download Worst-rng</button></a>
@@ -19,10 +18,21 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        button {
-            background-color: rgb(168, 145, 44);
-            border-radius: 30%;
-            color: white;
+        button:hover {
+            background-color: rgb(166, 168, 232);
+            animation: rotation 1s infinite linear;
+        }
+
+        img {
+           animation: rotation 2s infinite linear;
+        }
+        @keyframes rotation {
+            fron {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
         }
     </style>
 </html>
